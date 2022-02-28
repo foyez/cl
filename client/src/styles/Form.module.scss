@@ -1,0 +1,40 @@
+.createAndEditProfile {
+  padding: 4rem 0;
+  height: calc(100vh - 160px);
+  overflow-y: auto;
+}
+.createAndEditProfile form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  max-width: 45rem;
+  margin: 0 auto;
+}
+.createAndEditProfile input:not([type="file"]) {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  transition: border-color 0.15s ease;
+  font-weight: 400;
+}
+.createAndEditProfile input[type="file"] {
+  display: none;
+}
+.imgPreview {
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+.imgPreview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

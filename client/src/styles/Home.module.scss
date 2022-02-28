@@ -1,0 +1,35 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  height: calc(100vh - 160px);
+  overflow-y: auto;
+}
+.mainInner {
+  padding: 4rem 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.memberContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding-top: 5rem;
+  gap: 3rem;
+  border-top: 1px solid #eaeaea;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.noMembers {
+  font-size: 1.6rem;
+}
